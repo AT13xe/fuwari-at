@@ -52,7 +52,7 @@ OpenList 由开发者社区共同维护，遵循 **AGPL-3.0 开源协议**，鼓
 ## Windows
 
 首先进入openlist的GitHub仓库的[release（点此进入）](https://github.com/OpenListTeam/OpenList/releases)界面
-找到你电脑对应的架构下载对应的压缩包
+找到你电脑对应的架构下载对应的压缩包  
 ![windows](../assets/images/openlist_windows.png)  
 然后打开资源管理器找到一个你看得顺眼的目录创建一个名为Openlist的文件夹，把压缩包移动到该目录  
 解压压缩包后你会得到一个名为`openlist.exe`的文件
@@ -120,7 +120,7 @@ chmod 777 openlist
 打开termux，侧滑打开切换源
 ![zerotermux_yuan](../assets/images/openlist_zerotermux_yuan.jpg)
 选择国内源，例如：清华源和北京源
-![zerotermux_yuan_1](../assets/images/openlist_zerotermux_yuam_1.jpg)
+![zerotermux_yuan_1](../assets/images/openlist_zerotermux_yuan_1.jpg)
 等待换源成功，如果出现提示输入y回车即可
 ![zerotermux_yuan_y](../assets/images/openlist_zerotermux_yuan_y.jpg)
 换完源之后输入
