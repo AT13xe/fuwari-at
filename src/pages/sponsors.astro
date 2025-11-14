@@ -42,22 +42,6 @@ const { sponsors } = sponsorsData as SponsorsData;
                 </div>
             </div>
 
-            <!-- 微信支付 -->
-            <div class="donate-card">
-                <div class="flex items-center gap-3 mb-4">
-                    <div class="h-10 w-10 rounded-lg bg-green-500 flex items-center justify-center">
-                        <Icon name="simple-icons:wechat" class="text-[1.5rem] text-white">
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-bold text-black dark:text-white">微信支付</h3>
-                        <p class="text-sm text-black/60 dark:text-white/60">扫码支付</p>
-                    </div>
-                </div>
-                <div class="qr-code-placeholder">
-                    <img src="/sponsors/wechat.svg" alt="微信支付二维码" class="w-48 h-48 mx-auto rounded-lg" />
-                </div>
-            </div>
-
             
             </div>
         </div>
@@ -105,7 +89,7 @@ const { sponsors } = sponsorsData as SponsorsData;
                 <span>已赞助的小伙伴</span>
             </h2>
             <p class="text-sm text-black/60 dark:text-white/60 mb-4">
-            如果您已赞助，并且想加入赞助名单，请自行提交PR <a target="_blank" href="https://github.com/afoim/fuwari/edit/main/src/data/sponsors.json" class="transition link text-[var(--primary)] font-medium underline">点击这里提交</a>
+            如果您已赞助，并且想加入赞助名单，请自行提交PR <a target="_blank" href="https://github.com/AT13xe/fuwari-at/edit/main/src/data/sponsors.json" class="transition link text-[var(--primary)] font-medium underline">点击这里提交</a>
             </p>
             <div class="sponsors-grid">
                 {sponsors.map((sponsor) => (
