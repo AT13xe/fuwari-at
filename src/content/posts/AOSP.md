@@ -6,7 +6,7 @@ tags:
   - Android
   - AOSP
 draft: false
-pinned: true
+pinned: false
 lang: ""
 ---
 # AOSP（Android Open Source Project）介绍
