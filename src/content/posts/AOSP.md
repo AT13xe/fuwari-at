@@ -5,7 +5,7 @@ description: 一个介绍AOSP的文档
 tags:
   - Android
   - AOSP
-draft: true
+draft: false
 pinned: true
 lang: ""
 ---
