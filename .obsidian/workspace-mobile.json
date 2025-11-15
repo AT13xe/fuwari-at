@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c6cdf47173009d5",
+        "id": "aa695b2a7ee6add9",
         "type": "tabs",
         "children": [
           {
-            "id": "2f20985c7b5a3d2a",
+            "id": "fea3f8e9e834645f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -147,8 +147,11 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "2f20985c7b5a3d2a",
+  "active": "fea3f8e9e834645f",
   "lastOpenFiles": [
+    "未命名.md",
+    "src/content/posts/AOSP.md",
+    "src/content/posts/example.md",
     "src/content/posts/Openlist.md",
     "src/content/posts/hello.md",
     "src/content/posts"
