@@ -12,7 +12,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "AT13xe Blog",
-	subtitle: "技术分享与实践",
+	subtitle: "技术分享",
 	description:
 		"分享网络技术、服务器部署项目，偶尔随便写写文章，作者为AT13xe",
 
@@ -56,6 +56,10 @@ export const siteConfig: SiteConfig = {
 			//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		},
 	],
+	officialSites: [
+		{ url: "https://blog.at13xe.top", alias: "主站(Netlify)" },
+		{ url: "https://eo-blog.at13xe.top", alias: "EO代理" },
+	],
 };
 
 export const navBarConfig: NavBarConfig = {
@@ -81,16 +85,6 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "随机图",
 			url: "https://pic.at13xe.top", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
-		{
-			name: "blog主站",
-			url: "https://blog.at13xe.top", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
-		{
-			name: "blog(edgeone代理)",
-			url: "https://eo-blog.at13xe.top", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],

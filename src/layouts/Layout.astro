@@ -260,7 +260,7 @@ const bannerOffset =
 		<div id="page-height-extend" class="hidden h-[300vh]"></div>
 
 		<!-- 域名检测脚本 -->
-		<script is:inline define:vars={{officialSites: ["https://blog.at13xe.top", "https://atblog.netlify.app", "https://eo-blog.at13xe.top"]}}>
+		<script is:inline define:vars={{officialSites: siteConfig.officialSites || []}}>
 			// 域名检测功能
 			function checkDomain() {
 				try {
@@ -272,7 +272,8 @@ const bannerOffset =
 					// 获取所有官方域名
 					const officialDomains = officialSites.map(site => {
 						try {
-							return new URL(site).hostname;
+							const url = typeof site === 'string' ? site : site.url;
+							return new URL(url).hostname;
 						} catch (e) {
 							return null;
 						}
@@ -298,7 +299,9 @@ const bannerOffset =
 						if (shouldRedirect) {
 							// 构建官方网站的对应页面URL（使用第一个官方网站）
 							const currentPath = window.location.pathname + window.location.search + window.location.hash;
-							const officialPageUrl = officialSites[0] + currentPath;
+							const firstSite = officialSites[0];
+              const firstUrl = typeof firstSite === 'string' ? firstSite : firstSite.url;
+							const officialPageUrl = firstUrl + currentPath;
 							// 跳转到官方网站
 							window.location.href = officialPageUrl;
 						}
