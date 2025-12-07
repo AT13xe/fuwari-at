@@ -7,6 +7,18 @@
       "url": "https://www.netlify.com/"
     },
     {
+      "name": "Vercel",
+      "avatar": "https://www.vercel.com/favicon.ico",
+      "description": "全栈应用部署云平台",
+      "url": "https://www.vercel.com/"
+    },
+    {
+      "name": "EdgeOne",
+      "avatar": "https://edgeone.ai/favicon.ico",
+      "description": "一个面向全球的边缘网络服务平台",
+      "url": "https://edgeone.ai/"
+    },
+    {
       "name": "Cloudflare",
       "avatar": "https://www.cloudflare.com/favicon.ico",
       "description": "网络加速与防护服务平台",
