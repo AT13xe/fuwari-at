@@ -57,7 +57,7 @@ export const siteConfig: SiteConfig = {
 		},
 	],
 	officialSites: [
-		{ url: "https://blog.at13xe.top", alias: "主站(Netlify)" },
+		{ url: "https://nf-blog.at13xe.top", alias: "Netlify" },
 		{ url: "https://eo-blog.at13xe.top", alias: "EdgeOne" },
 		{ url: "https://v-blog.at13xe.top", alias: "Vercel" },
 		{ url: "https://ali-blog.at13xe.top", alias: "阿里云"},
