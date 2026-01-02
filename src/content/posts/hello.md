@@ -2,7 +2,7 @@
 title: 欢迎来到我的博客
 published: 2025-09-17
 description: Welcome
-image: https://eo-pic.at13xe.top/h
+image: /random/h
 tags:
   - Welcome
 draft: false

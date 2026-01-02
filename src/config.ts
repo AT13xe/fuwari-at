@@ -36,8 +36,8 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	background: {
-		enable: true, // Enable background image
-		src: "https://eo-pic.at13xe.top/h", // Background image URL (supports HTTPS)
+		enable: false, // Enable background image
+		src: "", // Background image URL (supports HTTPS)
 		position: "center", // Background position: 'top', 'center', 'bottom'
 		size: "cover", // Background size: 'cover', 'contain', 'auto'
 		repeat: "no-repeat", // Background repeat: 'no-repeat', 'repeat', 'repeat-x', 'repeat-y'
@@ -86,7 +86,7 @@ export const navBarConfig: NavBarConfig = {
 		},
 		{
 			name: "随机图",
-			url: "https://pic.at13xe.top", // Internal links should not include the base path, as it is automatically added
+			url: "https://img.acofork.com/h", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
