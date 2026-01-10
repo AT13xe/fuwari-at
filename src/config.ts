@@ -86,7 +86,7 @@ export const navBarConfig: NavBarConfig = {
 		},
 		{
 			name: "随机图",
-			url: "https://img.at13xe.top/h", // Internal links should not include the base path, as it is automatically added
+			url: "https://img.at13xe.top", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
