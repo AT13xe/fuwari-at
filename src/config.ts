@@ -74,11 +74,11 @@ export const navBarConfig: NavBarConfig = {
 			url: "/friends/", // Internal links should not include the base path, as it is automatically added
 			external: false, // Show an external link icon and will open in a new tab
 		},
-		// {
-			// name: "赞助",
-			// url: "/sponsors/", // Internal links should not include the base path, as it is automatically added
-			// external: false, // Show an external link icon and will open in a new tab
-		// },
+		{
+			name: "赞助",
+		  url: "/sponsors/", // Internal links should not include the base path, as it is automatically added
+			external: false, // Show an external link icon and will open in a new tab
+		},
 		{
 			name: "统计",
 			url: "https://umami.at13xe.top/share/y0RJwhzqfWXVA1Sj", // Internal links should not include the base path, as it is automatically added
