@@ -14,7 +14,7 @@ export const siteConfig: SiteConfig = {
 	title: "AT13xe Blog",
 	subtitle: "技术分享",
 	description:
-		"分享网络技术、服务器部署项目，偶尔随便写写文章，作者为AT13xe",
+		"分享网络技术、静态项目部署，偶尔随便写写文章，作者为AT13xe",
 
 	keywords: [],
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
