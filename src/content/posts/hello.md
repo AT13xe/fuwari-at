@@ -5,9 +5,9 @@ description: Welcome
 image: /random/h
 tags:
   - Welcome
+category: ''
 draft: false
-pinned: true
-lang: ""
+lang: ''
 ---
 
 # 欢迎来到我的博客
@@ -23,6 +23,8 @@ lang: ""
 - 生活随笔：一些日常的想法与感悟  
 
 希望这些内容能给你带来一些启发或帮助。
+
+>本人学业所以繁忙更新频率较慢
 
 ---
 ## 最后
