@@ -5,9 +5,10 @@ description: Welcome
 image: /random/h
 tags:
   - Welcome
-category: ''
+category: ""
+pinned: true
 draft: false
-lang: ''
+lang: ""
 ---
 
 # 欢迎来到我的博客
