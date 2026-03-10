@@ -85,6 +85,11 @@ export const navBarConfig: NavBarConfig = {
 			external: true, // Show an external link icon and will open in a new tab
 		},
 		{
+			name: "主页",
+			url: "https://at13xe.top", // Internal links should not include the base path, as it is automatically added
+			external: true, // Show an external link icon and will open in a new tab
+		},
+		{
 			name: "随机图",
 			url: "https://img.at13xe.top", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
