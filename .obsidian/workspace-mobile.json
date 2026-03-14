@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "55255b033bd2e55d",
+        "id": "25d76d34c95b1962",
         "type": "tabs",
         "children": [
           {
-            "id": "5f9581b00041e289",
+            "id": "27f0cee84755fca8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -94,6 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "src/content/posts/cdn.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -147,9 +148,18 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "5f9581b00041e289",
+  "active": "27f0cee84755fca8",
   "lastOpenFiles": [
     "src/content/posts/cdn.md",
+    "src/content/assets/images/vercel.png",
+    "src/content/assets/images/netlify.png",
+    "src/content/assets/images/esapages.png",
+    "src/content/assets/images/esacdn.png",
+    "src/content/assets/images/eopages.png",
+    "src/content/assets/images/eocdn.png",
+    "src/content/assets/images/cfpages.png",
+    "src/content/assets/images/cfworkers.png",
+    "src/content/assets/images/cfcdn.png",
     "src/content/posts/hello.md",
     "src/content/posts/GFWvsProtocolAndCoro.md",
     "src/content/posts/Openlist.md",
