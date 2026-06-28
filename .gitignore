@@ -30,3 +30,11 @@ yarn.lock
 
 # 忽略上游仓库
 ori
+
+/src/content/posts/example.md
+
+/.obsidian
+
+/.trash
+
+/src/content/posts/.obsidian
