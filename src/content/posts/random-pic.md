@@ -2,7 +2,7 @@
 title: 随机图站点搭建
 published: 2026-06-28
 description: 手把手带你用CF搭建一个随机图站点
-image: ../assets/images/random.png
+image: ../assets/images/randompic.png
 tags:
   - CloudFlare
   - Github
