@@ -44,7 +44,7 @@ ri/
 将你所要展示的图片放在`ri/`这个目录即可  
 
 将`config.json`中的域名改成自己的即可
-```Json [config.json]
+```json [config.json]
 {
     "domain": "https://你这个项目绑定的域名"
 }
